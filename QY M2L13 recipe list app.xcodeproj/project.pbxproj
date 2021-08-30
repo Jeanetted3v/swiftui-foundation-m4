@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D119F7526D7D72C007D641B /* Rational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D119F7426D7D72C007D641B /* Rational.swift */; };
 		1D5238AF266A7335000B4EAD /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5238AE266A7335000B4EAD /* RecipeDetailView.swift */; };
 		1D840B3026666BBD00CB1E01 /* QY_M2L13_recipe_list_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D840B2F26666BBD00CB1E01 /* QY_M2L13_recipe_list_App.swift */; };
 		1D840B3226666BBD00CB1E01 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D840B3126666BBD00CB1E01 /* RecipeListView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D119F7426D7D72C007D641B /* Rational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rational.swift; sourceTree = "<group>"; };
 		1D5238AE266A7335000B4EAD /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		1D840B2C26666BBC00CB1E01 /* QY M2L13 recipe list app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QY M2L13 recipe list app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D840B2F26666BBD00CB1E01 /* QY_M2L13_recipe_list_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QY_M2L13_recipe_list_App.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D119F7326D7D710007D641B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1D119F7426D7D72C007D641B /* Rational.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		1D840B2326666BBC00CB1E01 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 				1D840B4026666C0C00CB1E01 /* Models */,
 				1D840B4226666C2500CB1E01 /* Services */,
 				1D840B4126666C1900CB1E01 /* Data */,
+				1D119F7326D7D710007D641B /* Utilities */,
 				1D840B3326666BC000CB1E01 /* Assets.xcassets */,
 				1D840B3826666BC000CB1E01 /* Info.plist */,
 				1D840B3526666BC000CB1E01 /* Preview Content */,
@@ -202,6 +213,7 @@
 			files = (
 				1D840B4626666D7F00CB1E01 /* Receipe.swift in Sources */,
 				1D5238AF266A7335000B4EAD /* RecipeDetailView.swift in Sources */,
+				1D119F7526D7D72C007D641B /* Rational.swift in Sources */,
 				1D840B482666700A00CB1E01 /* RecipeModel.swift in Sources */,
 				1D840B3226666BBD00CB1E01 /* RecipeListView.swift in Sources */,
 				1D840B3026666BBD00CB1E01 /* QY_M2L13_recipe_list_App.swift in Sources */,
